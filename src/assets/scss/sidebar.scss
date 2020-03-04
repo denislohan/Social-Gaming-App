@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins|Roboto:400,500&display=swap');
+.sidebar {
+position: absolute;
+width: 373px;
+height: 491px;
+left: 920px;
+top: 87px;
+background: #E5E5E5;
+border-radius: 30px;
+}
+
+.online__users {
+position: absolute;
+width: 195px;
+height: 35px;
+left: 80px;
+top: 17px;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 28px;
+color: #370060;
+}
+
+ul {
+    list-style: none;
+}
+ul li {
+position: relative;
+width: 300px;
+height: 25px;
+left: 63px;
+top: 74px;
+padding: 10px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 4px;
+/* identical to box height */
+color: #370060;
+}
+ul li .Profile{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: -30px;
+    top: -2px; 
+}

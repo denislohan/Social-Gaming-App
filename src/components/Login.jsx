@@ -1,5 +1,4 @@
 // Login with Facebok
-
 import React, { Component } from 'react'
 
 class MainPage extends Component {

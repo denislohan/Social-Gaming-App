@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Switch>
         <Route path='/' exact>
-          <Login />
+          <MainPage />
         </Route>
         <Route path='/playgame' exact>
         {!localStorage.getItem('token') ? <Redirect to="/" /> : <MainPage />}
