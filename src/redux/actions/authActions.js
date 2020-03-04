@@ -1,14 +1,8 @@
-
-// export const setCurrentUser(user) {
-//     return {
-        
-//     }
-// }
+import { SIGNOUT } from '../../constants/actionTypes'
 
 export const signout = () => {
-return dispatch => {
-  localStorage.removeItem('token');
-//   setAuthorizationToken(false);
-//   dispatch(setCurrentUser({}))  
-}
-}
+	return dispatch => {
+		localStorage.removeItem('token');
+		  dispatch({type: SIGNOUT})
+	};
+};
