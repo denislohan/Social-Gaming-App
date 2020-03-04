@@ -1,13 +1,12 @@
-// Login with Facebok
-
 import React, { Component } from 'react'
+import Header from './header'
 
 class MainPage extends Component {
     render() {
         return (
-           <div>
-           <h1>homepage</h1>
-           </div>
+            <div className="wrapper">
+            <Header />
+            </div>
         )
     }
 }
